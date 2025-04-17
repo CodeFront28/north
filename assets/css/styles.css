@@ -802,7 +802,7 @@ footer .btn:hover {
   bottom: 119px;
   left: 50%;
   transform: translateX(-50%);
-  animation: el_1 3s linear infinite;
+  animation: el_1 2s linear infinite;
 }
 
 @keyframes el_1 {
@@ -878,7 +878,7 @@ footer .btn:hover {
   bottom: 320px;
   left: 50%;
   transform: translateX(-50%);
-  animation: el_3 3s linear infinite;
+  animation: el_3 2s linear infinite;
 }
 
 /* main black elipse */
@@ -979,7 +979,7 @@ footer .btn:hover {
   background: #5ae4be;
   filter: blur(92.66136169433594px);
   z-index: -4;
-  animation: el_30 16s linear infinite;
+  animation: el_30 4s linear infinite;
 }
 
 .el_28 {
@@ -993,7 +993,7 @@ footer .btn:hover {
   background: #ba31cf;
   filter: blur(92.66136169433594px);
   z-index: -5;
-  animation: el_28 8s linear infinite;
+  animation: el_28 2s linear infinite;
 }
 
 @keyframes el_28 {
