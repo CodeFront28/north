@@ -802,7 +802,7 @@ footer .btn:hover {
   bottom: 119px;
   left: 50%;
   transform: translateX(-50%);
-  animation: el_1 2s linear infinite;
+  animation: el_1 3s linear infinite;
 }
 
 @keyframes el_1 {
@@ -878,7 +878,7 @@ footer .btn:hover {
   bottom: 320px;
   left: 50%;
   transform: translateX(-50%);
-  animation: el_3 2s linear infinite;
+  animation: el_3 3s linear infinite;
 }
 
 /* main black elipse */
@@ -892,6 +892,7 @@ footer .btn:hover {
   bottom: 330px;
   left: 50%;
   transform: translateX(-50%);
+  animation: el_2 3s linear infinite;
 }
 .el_4 {
   position: absolute;
@@ -903,6 +904,7 @@ footer .btn:hover {
   bottom: 370px;
   left: 50%;
   transform: translateX(-50%);
+  animation: el_4 3s linear infinite;
 }
 .el_5 {
   position: absolute;
@@ -914,6 +916,7 @@ footer .btn:hover {
   bottom: 370px;
   left: 50%;
   transform: translateX(-50%);
+  animation: el_5 3s linear infinite;
 }
 .el_8 {
   position: absolute;
@@ -936,18 +939,79 @@ footer .btn:hover {
   bottom: 400px;
   left: 50%;
   transform: translateX(-50%);
+  animation: el_9 3s linear infinite;
+}
+
+@keyframes el_9 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes el_2 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes el_4 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes el_5 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .grad__1 {
   position: absolute;
   left: -20%;
   top: 20%;
+  animation: grads 6s linear infinite;
+  z-index: -1;
 }
 
 .grad__2 {
   position: absolute;
   left: -20%;
   top: 50%;
+  animation: grads 6s linear infinite;
+  z-index: -1;
 }
 
 .grad__3 {
@@ -955,6 +1019,8 @@ footer .btn:hover {
   right: 10%;
   top: 46%;
   opacity: 0.3;
+  animation: grads 6s linear infinite;
+  z-index: -1;
 }
 
 .grad__4 {
@@ -963,6 +1029,26 @@ footer .btn:hover {
   bottom: 10%;
   z-index: -1;
   opacity: 0.3;
+  animation: grads 6s linear infinite;
+  z-index: -1;
+}
+
+@keyframes grads {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translate(100px, -50px);
+  }
+
+  50% {
+    transform: translate(-50px, 50px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 
 .relat {
