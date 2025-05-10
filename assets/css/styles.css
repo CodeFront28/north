@@ -1444,8 +1444,15 @@ footer .btn:hover {
   }
 
   .grad__2,
-  .grad__1 {
+  .grad__1,
+  .grad__4,
+  .grad__3 {
     display: none;
+  }
+
+  .shine__1 {
+    max-width: 70vw;
+    left: 0;
   }
 }
 
