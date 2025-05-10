@@ -623,7 +623,7 @@ h4 {
   flex-direction: column;
   border-radius: 36px;
   border: 0.5px solid #2d3636;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(39, 38, 44, 0.21);
   backdrop-filter: blur(50px);
   padding: 48px;
   align-items: center;
@@ -1033,6 +1033,12 @@ footer .btn:hover {
   left: 50%;
   transform: translateX(-50%);
   animation: el_9 3s linear infinite;
+}
+
+.home__inner .btn,
+.home__inner .subtitle,
+.home__inner .title {
+  z-index: 22;
 }
 
 @keyframes el_9 {
@@ -1453,6 +1459,10 @@ footer .btn:hover {
   .shine__1 {
     max-width: 70vw;
     left: 0;
+  }
+
+  .star_6 {
+    display: none;
   }
 }
 
