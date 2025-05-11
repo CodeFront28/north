@@ -623,7 +623,7 @@ h4 {
   flex-direction: column;
   border-radius: 36px;
   border: 0.5px solid #2d3636;
-  background: rgba(39, 38, 44, 0.21);
+  background: #1b191f;
   backdrop-filter: blur(50px);
   padding: 48px;
   align-items: center;
